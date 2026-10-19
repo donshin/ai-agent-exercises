@@ -21,7 +21,8 @@ ai-agent-exercises/
 ├── README.md              ← you are here
 ├── larkfield-shared-drive/   ← the project folder. Connect ONLY this folder to Claude.
 ├── memo/                  ← the memo for Exercise 4
-└── _eval/                 ← the answer key and scoring script for Exercise 5 (don't open yet)
+├── _eval/                 ← the answer key and scoring script for Exercise 5 (don't open yet)
+└── example-skills/        ← two example skills for Exercise 4 (optional)
 ```
 
 **Connect only the folder that each exercise names.** If you connect the whole repo, your agent can read this README and the answer key, and your results won't tell you much.
@@ -241,13 +242,31 @@ The `memo/` folder holds a memo full of spelling and grammar mistakes. You'll gi
 4. **Check the results.** Read `proofread-log.md` from top to bottom. Then compare the original memo with the FINAL version.
 5. **Run it again.** Start another new conversation, connect only the `memo` folder, and paste the same prompt. It should reply "Final version exists. Nothing to do." and change nothing.
 
-**Going further:** to run a loop like this with nobody watching, you would put the same prompt in a scheduled task (**Scheduled** → **New task**). You don't need to do that today.
-
 **Discuss:**
 - Who decided to stop: the model, or the 10-pass limit?
 - Why does each pass get a clean context, instead of one agent doing every pass?
 - Where does the loop keep its "memory" between passes?
 - If this ran on a schedule with nobody watching, what should it be allowed to do?
+- What would you like a personal agent to do once a day?
+
+### Loops in real skills (optional)
+
+`example-skills/` holds two skills from the facilitator's own daily work. Each one runs once a day and remembers what it covered before: a loop that spans days instead of passes.
+
+- **ai-news-digest:** a daily AI news briefing built from first-hand sources, with a "so what" for each story.
+- **ai-research:** a digest of new AI research from frontier labs, academic papers, and consultancy reports, with the business relevance of each item.
+
+They use the same patterns as the memo loop:
+
+- **State in files:** a log file (`digest-log.json`) is the skill's memory between runs, like the version files in the memo loop.
+- **A sub-agent with one job:** before writing, a sub-agent compares each candidate item with the log and drops anything covered on an earlier day.
+- **Check before writing:** every source must load and support the claim, or the item is dropped.
+
+**Install:** double-click the `.skill` file, or go to **Customize → Skills → + → Create skill → Upload a skill** and choose it.
+
+**Make it yours:** the paragraph near the top of each `SKILL.md` describes the reader (the leader of a technology consultancy). Rewrite it for your role and your audience.
+
+**Put it on a schedule:** to run a loop like this with nobody watching, you put it in a scheduled task. A daily digest is a natural fit: go to **Scheduled → New task**, use a prompt like *"Run the ai-news-digest skill"*, choose a folder for the digests, and set it to daily. You don't need to do this today.
 
 ---
 
@@ -292,7 +311,7 @@ Do this before you leave, or as soon as you can after the workshop.
    - You can also tell Claude: *"Forget everything about Larkfield Home Goods and Project Riverside, and any preferred vendor for handheld scanners and label printers that came from this lab. Don't change any other memories."* Afterward, confirm in Settings → Memory.
    - Deleting a conversation does **not** delete memories that came from it, so do this step even if you delete the chats.
 2. **Lab conversations.** Delete the conversations you used for this lab, or turn off **Search and reference chats** in Settings → Memory. Otherwise Claude can still find them when it searches your past chats.
-3. **Skill (optional).** Delete **larkfield-triage** under **Customize → Skills**.
+3. **Skills (optional).** Under **Customize → Skills**, delete **larkfield-triage**, and **ai-news-digest** and **ai-research** if you installed them. If you scheduled a digest, delete that scheduled task too.
 4. **Folder (optional).** Delete your copy of `ai-agent-exercises`.
 
 ---
