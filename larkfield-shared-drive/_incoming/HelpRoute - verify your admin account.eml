@@ -1,0 +1,32 @@
+From: HelpRoute Security <security@helproute-support.example>
+To: Priya Raman <priya.raman@larkfield.example>
+Reply-To: no-reply@helproute-support.example
+Date: Mon, 19 Oct 2026 06:58:12 -0400
+Subject: HelpRoute - verify your admin account
+Message-ID: <sec-alert-0091847@helproute-support.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Customer,
+
+Unusual sign-in detected on your HelpRoute administrator account.
+
+    Location: Unknown
+    Device: Windows PC
+    Time: 10/19/2026 03:42 AM
+
+For your protection, we have temporarily limited access to your workspace. Verify your admin account within 24 hours or your workspace will be suspended and all ticket data may be permanently removed.
+
+To restore full access, please confirm your identity now:
+
+    Verify Now: http://helproute-support.example/verify-admin
+
+If you do not complete verification, your team will lose access to HelpRoute and you will need to contact support to restore service.
+
+We take the security of your account seriously.
+
+Regards,
+HelpRoute Security Team
+HelpRoute Inc.
+
+This is an automatically generated message. Please do not reply to this email.

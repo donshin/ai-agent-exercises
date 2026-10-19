@@ -1,0 +1,24 @@
+From: Sam Whitley <onboarding@helproute.example>
+To: Priya Raman <priya.raman@larkfield.example>
+Date: Wed, 14 Oct 2026 11:09:33 -0400
+Subject: Your HelpRoute sandbox expires Fri Oct 30
+Message-ID: <onb-7f21c9e4.20261014@helproute.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Priya,
+
+Quick reminder that Larkfield's HelpRoute sandbox expires on Fri Oct 30.
+
+Before your production cutover planned for Mon Nov 2, the historical ticket import needs to be completed and validated in the sandbox. Once the sandbox closes we can't re-run imports there, so anything that needs fixing (field mappings, requester matching, closed-ticket statuses) should be sorted out before the 30th.
+
+From what I can see, the last sandbox import was a partial run on Oct 6. If it would help, I'm happy to set up a 30-minute working session to walk through the validation checklist with you and anyone else on your team. Just reply with a couple of times that work and I'll send an invite.
+
+Best,
+Sam
+
+--
+Sam Whitley
+Customer Onboarding
+HelpRoute
+onboarding@helproute.example

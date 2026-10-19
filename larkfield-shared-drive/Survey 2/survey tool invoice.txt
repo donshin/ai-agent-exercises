@@ -1,0 +1,16 @@
+INVOICE  #PF-55102
+PulseForm (survey software)
+billing@pulseform.example
+
+Bill to: Larkfield Home Goods - IT (Jordan Ellis)
+Invoice date: Oct 2, 2026
+Due: Nov 1, 2026 (net 30)
+
+Plan: Team, annual, 5 editors          $480.00
+Tax                                       $0.00
+TOTAL DUE                               $480.00
+
+Card on file ending 4471 will be charged on the due date unless you pay by ACH.
+
+--
+JE note: not in the Riverside budget, needs a cost center from Gloria. Fwd to AP?

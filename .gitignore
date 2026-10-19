@@ -1,0 +1,17 @@
+# macOS folder metadata
+.DS_Store
+._*
+
+# Files created while running the exercises (e.g., a facilitator dry run).
+# Keeps dry-run outputs out of the public repo. The answer key ships in the
+# top-level _eval/ folder; the copy attendees make in the shared drive is ignored.
+larkfield-shared-drive/_eval/
+larkfield-shared-drive/briefs/
+larkfield-shared-drive/triage*.csv
+
+# Exercise 4 loop outputs
+memo/*v[0-9]*.md
+memo/proofread-log.md
+
+# Python cache
+__pycache__/

@@ -1,0 +1,22 @@
+riverside net - working notes (MO)
+last edit 10/13
+
+VLANs
+10  STAFF     10.20.10.0/23   dhcp .10.50 - .11.250
+20  VOICE     10.20.20.0/24
+30  GUEST     10.20.30.0/24   internet only, client isolation on
+40  MGMT      10.20.40.0/24   switches / APs / UPS
+50  SECURITY  10.20.50.0/24   badge readers (Keystone), cams later
+60  PRINT     10.20.60.0/24
+gw = .1 on each, core lives in TR-2
+
+APs: 16 total, 8 per floor, ceiling mount (NetLink pulling drops for these)
+switches: 8x PoE 48p, 4 per TR, uplink to core over riser fiber
+
+staff SSID LARK-STAFF  PSK: Riverside!Move26
+guest SSID LARK-GUEST  PSK: welcome2larkfield
+core switch admin login: admin / Lk-Core#2026
+
+TODO: move these to the password vault before go-live
+TODO: rotate guest PSK monthly?
+TODO: get # of reader locations from Teresa

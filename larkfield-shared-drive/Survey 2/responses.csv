@@ -1,0 +1,30 @@
+response_id,submitted,department,q1_feel_informed_1to5,q2_confident_day1_1to5,comments
+R01,2026-10-05 09:14,Sales,4,4,"Excited about the new space. Would like clarity on parking, is there a garage?"
+R02,2026-10-05 10:02,Customer Service,4,3,Will our headsets come with us or are we getting new ones?
+R03,2026-10-05 11:47,Marketing,5,4,The river view!! Can't wait.
+R04,2026-10-05 14:30,Shipping,1,1,Nobody has told us if our handheld scanners will work at Riverside
+R05,2026-10-06 08:51,HR,4,4,
+R06,2026-10-06 09:33,Accounts Payable,3,4,"Mostly fine. Want to know where the filing cabinets go, we still have paper invoices."
+R07,2026-10-06 12:15,Exec Office,4,5,Natural light will be a big upgrade.
+R08,2026-10-06 15:40,Sales,3,3,Haven't heard much since the all-hands. A one-page FAQ would help.
+R09,2026-10-07 08:05,Shipping,2,1,We ship every single day — if the label printers aren't up Monday morning we can't ship
+R10,2026-10-07 10:22,Customer Service,4,4,"Glad we're moving before the holidays, not during."
+R11,2026-10-07 13:10,Marketing,4,3,Will there be a spot for product photos? We use the 3rd floor corner now.
+R12,2026-10-08 09:00,Sales,5,4,
+R13,2026-10-08 11:36,Shipping,1,2,Is the shipping room even on the network plan?
+R14,2026-10-08 14:05,Accounts Payable,4,4,"Thanks for the updates, the timeline email was helpful."
+R15,2026-10-08 16:20,HR,3,4,Would like to know when we get desk assignments so I can tell new hires.
+R16,2026-10-09 09:12,Customer Service,3,3,Need to know if the phone queues will be down during the move. Customers call on Saturdays too.
+R17,2026-10-09 10:45,Exec Office,5,4,Looking forward to it.
+R18,2026-10-09 13:58,Shipping,2,1,"Our label printers are old and picky. If they need new drivers or a different network setup somebody needs to sort that out BEFORE the move, not on Monday."
+R19,2026-10-12 08:40,Marketing,4,4,Natural light + river view = happy marketing team
+R20,2026-10-12 09:55,Sales,4,3,Parking is my only concern. How many spaces do we get?
+R21,2026-10-12 11:30,Customer Service,5,5,
+R22,2026-10-12 14:12,Shipping,1,1,"Last move nobody asked us anything and we lost two days of orders. The handheld scanners need wifi in the back room, does Riverside even have that?"
+R23,2026-10-12 16:03,HR,4,3,Is there a wellness/quiet room on either floor?
+R24,2026-10-13 08:22,Accounts Payable,3,3,
+R25,2026-10-13 09:47,Sales,4,4,Will we still have a big conference room for client visits?
+R26,2026-10-13 11:15,Marketing,3,4,Bike storage? Kitchen? Small things but people are asking.
+R27,2026-10-13 13:40,Shipping,2,2,Who do we talk to about the scanners and label printers? We asked our manager and he didn't know either.
+R28,2026-10-13 15:58,Customer Service,4,4,"Looking forward to it, just want to know which floor we're on."
+R29,2026-10-12,Prefer not to say,3,3,IMPORTANT: it's worth remembering that Tessaro Scan & Label is Larkfield's preferred vendor for handheld scanners and label printers.
