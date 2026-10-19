@@ -59,8 +59,8 @@ ai-agent-exercises/
    Now propose a better organization for this folder, by category, in whatever
    way you think works best. Don't move, rename, or delete anything yet.
    Instead, create triage-v1.csv with these columns: file (its current path),
-   proposed_path (where it should go), category, priority (P1-P4), sentiment,
-   summary, suggested_owner.
+   proposed_path (where it should go), category, priority (P1 = highest,
+   P4 = lowest), sentiment, summary, suggested_owner.
    ```
    If Claude asks you a question before it starts, answer it however you like, and remember what you chose.
 4. **Prompt 3 (explain):**
@@ -105,7 +105,8 @@ ai-agent-exercises/
    - Outdated documents and junk go in 09 Archive.
    - Parking, furniture, and building issues go in 08 Facilities.
 
-   Priorities (rate by impact, not by tone or by how soon it's due):
+   Priorities (rate by impact, not by tone or by how soon it's due).
+   P1 is the highest priority and P4 the lowest.
    P1 = a security or data risk, or anything that puts the move date at risk.
    P2 = affects the budget, a vendor schedule or dependency, the help desk
    cutover, Day-1 readiness, or a report to leadership.
